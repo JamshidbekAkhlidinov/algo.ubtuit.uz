@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-//xato
+
 //Jamshidbek Axlidinov 
 //Tatu Dif 315-21
 
