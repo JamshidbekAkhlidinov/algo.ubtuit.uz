@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
+
 
 //Jamshidbek Axlidinov 
 //Tatu Dif 315-21
@@ -10,7 +10,9 @@ int main(){
 	float x,y;
 	cin>>x>>y;
 	
-	if(-1<=y and 1>=y and -1<=x and 1>=x){
+	if(x*x+y*y<=1 and x>=0){
+		cout<<"yes";
+	}else if((y<=0.5*x+1 and y>=-0.5*x-1  and x*x+y*y<=1) ){
 		cout<<"yes";
 	}else{
 		cout<<"no";

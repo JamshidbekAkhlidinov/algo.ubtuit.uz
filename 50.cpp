@@ -1,20 +1,20 @@
 #include <iostream>
-#include <cmath>
-#include <iomanip>
 
 //Jamshidbek Axlidinov 
 //Tatu Dif 315-21
 
 using namespace std;
 int main(){
+	
 	float x,y;
 	cin>>x>>y;
 	
-	if(-1<=y and 1>=y and -1<=x and 1>=x){
+	if(y<=3*x+2 and y<=-3*x+2 and y>-1){
 		cout<<"yes";
-	}else{
+	}	else {
 		cout<<"no";
 	}
-
+	
+		
 	
 }

@@ -10,7 +10,7 @@ int main(){
 	float x,y;
 	cin>>x>>y;
 	
-	if((-2<x and -1>x and x>1 and x<2 and sin(x)>1 && cos(y)>1 )|| (y<2 and y>1)){
+	if(x*x+y*y<=4 and x*x+y*y>=1 and y>=0){
 		cout<<"yes";
 	}else{
 		cout<<"no";

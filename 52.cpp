@@ -10,9 +10,12 @@ int main(){
 	float x,y;
 	cin>>x>>y;
 	
-	if(-1<=y and 1>=y and -1<=x and 1>=x){
+
+	if((y<=2*x+3 and y>=(1.0)/(3)*x-(1.0)/(3) and y>=-x and y<=0) or (y>=(1.0)/(3)*x-(1.0)/(3) and y<=2*x+3 and y<=-x)){
 		cout<<"yes";
-	}else{
+	}
+
+	else{
 		cout<<"no";
 	}
 

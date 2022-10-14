@@ -7,14 +7,18 @@
 
 using namespace std;
 int main(){
-	float x,y;
-	cin>>x>>y;
+	int n;
+	cin>>n;
 	
-	if(-1<=y and 1>=y and -1<=x and 1>=x){
-		cout<<"yes";
-	}else{
-		cout<<"no";
+	float s=0;
+	
+	for(int i=1; i<=n; i++){
+		s +=sin(i)/pow(2,i);
 	}
-
+	
+	cout<<setprecision(2);
+	cout<<fixed<<s;
+	
+	
 	
 }
