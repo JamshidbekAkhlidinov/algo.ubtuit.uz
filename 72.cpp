@@ -5,13 +5,16 @@
 //Jamshidbek Axlidinov 
 //Tatu Dif 315-21
 
-int faktr(float n){
-	float s=1;
-	for(int i=1; i<=n; i++){
-		s*=i;
-	}
-	return s;
+using namespace std;
+float faktr(float n){
+  std::cout<<setprecision(8);
+  float s=1;
+  for(float i=1; i<=n; i++){
+    s*=i;
+  }
+  return s;
 }
+
 
 using namespace std;
 int main(){
